@@ -8,4 +8,8 @@ class Console {
 	public function clear(): void {
 		echo "\x1b[2J";
 	}
+
+	public function move_home(): void {
+		echo "\x1b[H";
+	}
 }
