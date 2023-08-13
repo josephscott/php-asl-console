@@ -13,7 +13,7 @@ class Console {
 		echo "\x1b[H";
 	}
 
-	public move_to( int $line, int $col ):void {
+	public function move_to( int $line, int $col ):void {
 		echo "\x1b[{$line};{$col}H";
 	}
 }
